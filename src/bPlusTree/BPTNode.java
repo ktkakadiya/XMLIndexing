@@ -86,6 +86,38 @@ public abstract class BPTNode<K extends Comparable<K>>
     {
 		return this.lstKeys[0];
 	}
+	
+    /**
+     * Get first pointer of current node
+     */
+	public Object getFirstPointer() 
+    {
+		return this.lstPointers[0];
+	}
+
+    /**
+     * Get last key of current node
+     */
+	public K getLastKey() 
+    {
+		return this.lstKeys[this.uCurDegree - 1];
+	}
+	
+    /**
+     * Get last pointer of current node
+     */
+	public Object getLastPointer() 
+    {
+		return this.lstPointers[this.uCurDegree - 1];
+	}
+
+    /**
+     * Get second key of current node
+     */
+	public K getSecondKey() 
+    {
+		return this.lstKeys[1];
+	}
 
 	/**
 	 * Check whether the node has room to insert item

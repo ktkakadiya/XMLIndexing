@@ -1,6 +1,6 @@
 package bPlusTree;
 
-public class BPlusTree<K extends Comparable<K>, V> 
+public class BPlusTree<K extends Comparable<K>, V>
 {
     /**
      * Tree order i.e, the maximum number of child pointers internal node can have
@@ -116,7 +116,7 @@ public class BPlusTree<K extends Comparable<K>, V>
      * @param oChild
      * @param oNewChild
      */
-	void insertInParent(K key, BPTNode<K> oChild, BPTNode<K> oNewChild) 
+	protected void insertInParent(K key, BPTNode<K> oChild, BPTNode<K> oNewChild) 
     {
         //If splitted node was root node
 		if (oChild == root) 

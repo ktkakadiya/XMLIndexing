@@ -83,4 +83,20 @@ public class BPTInternalNode<K extends Comparable<K>> extends BPTNode<K>
 		super.copyNode(node, beginIndex, endIndex);
 		this.lstPointers[this.uCurDegree] = node.lstPointers[this.uCurDegree + beginIndex];
 	}
+
+	/**
+	 * Replace old key with new key
+	 * @param oldKey
+	 * @param newKey
+	 */
+	public void replaceKey(K oldKey, K newKey)
+	{
+		for(int i=0; i<this.lstKeys.length; i++)
+		{
+			if(this.lstKeys[i] == oldKey)
+			{
+				this.lstKeys[i] = newKey;
+			}
+		}
+	}
 }
