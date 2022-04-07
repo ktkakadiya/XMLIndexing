@@ -1,0 +1,178 @@
+B+ tree construction time : 5594600ns
+Compressed B+ tree construction time : 2238600ns
+Splay tree construction time : 1698700ns
+-----------------------------
+
+title
+(1) B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 144000ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 172300ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 92300ns
+-----------------------------
+
+book
+(1) B+ tree : 
+1.0.0 -> null
+1.0.1 -> null
+1.0.2 -> null
+1.0.3 -> null
+Search time taken : 69400ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0 -> null
+1.0.1 -> null
+1.0.2 -> null
+1.0.3 -> null
+Search time taken : 124400ns
+-----------------------------
+(3) Splay tree : 
+1.0.0 -> null
+1.0.1 -> null
+1.0.2 -> null
+1.0.3 -> null
+Search time taken : 88900ns
+-----------------------------
+
+title
+(1) B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 77800ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 90700ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 78000ns
+-----------------------------
+
+title
+(1) B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 293200ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 250300ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 113100ns
+-----------------------------
+
+author
+(1) B+ tree : 
+1.0.0.1 -> Giada De Laurentiis
+1.0.1.1 -> J K. Rowling
+1.0.2.1 -> James McGovern
+1.0.2.2 -> Per Bothner
+1.0.2.3 -> Kurt Cagle
+1.0.2.4 -> James Linn
+1.0.2.5 -> Vaidyanathan Nagarajan
+1.0.3.1 -> Erik T. Ray
+Search time taken : 318300ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.1 -> Giada De Laurentiis
+1.0.1.1 -> J K. Rowling
+1.0.2.1 -> James McGovern
+1.0.2.2 -> Per Bothner
+1.0.2.3 -> Kurt Cagle
+1.0.2.4 -> James Linn
+1.0.2.5 -> Vaidyanathan Nagarajan
+1.0.3.1 -> Erik T. Ray
+Search time taken : 1981200ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.1 -> Giada De Laurentiis
+1.0.1.1 -> J K. Rowling
+1.0.2.1 -> James McGovern
+1.0.2.2 -> Per Bothner
+1.0.2.3 -> Kurt Cagle
+1.0.2.4 -> James Linn
+1.0.2.5 -> Vaidyanathan Nagarajan
+1.0.3.1 -> Erik T. Ray
+Search time taken : 317700ns
+-----------------------------
+
+year
+(1) B+ tree : 
+1.0.0.2 -> 2005
+1.0.1.2 -> 2005
+1.0.2.6 -> 2003
+1.0.3.2 -> 2003
+Search time taken : 76600ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.2 -> 2005
+1.0.1.2 -> 2005
+1.0.2.6 -> 2003
+1.0.3.2 -> 2003
+Search time taken : 82500ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.2 -> 2005
+1.0.1.2 -> 2005
+1.0.2.6 -> 2003
+1.0.3.2 -> 2003
+Search time taken : 69200ns
+-----------------------------
+
+title
+(1) B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 72600ns
+-----------------------------
+(2) Compressed B+ tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 73500ns
+-----------------------------
+(3) Splay tree : 
+1.0.0.0 -> Everyday Italian
+1.0.1.0 -> Harry Potter
+1.0.2.0 -> XQuery Kick Start
+1.0.3.0 -> Learning XML
+Search time taken : 62500ns
+-----------------------------
+

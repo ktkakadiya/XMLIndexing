@@ -26,4 +26,22 @@ public class SplayTreeNode<K extends Comparable<K>, V>
       this.oRightChild = null;
       this.oParent = null;
     }
+
+    /**
+     * Get key
+     * @return
+     */
+    public K getKey()
+    {
+        return this.key;
+    }
+    
+    /**
+     * Get value
+     * @return
+     */
+    public V getValue()
+    {
+        return this.value;
+    }
 }

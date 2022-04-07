@@ -1,0 +1,9 @@
+data/museums/museums.xml
+data/museums/mOutput.txt
+specials
+specials
+specials
+rates
+museum
+name
+specials

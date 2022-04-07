@@ -48,6 +48,50 @@ public class BPTLeafNode<K extends Comparable<K>, V> extends BPTNode<K>
         }
 		return -1;
 	}
+
+	/**
+	 * Get pointer associated to given key
+	 * @param key
+	 * @return
+	 */
+	public V getKeyPointer(K key)
+	{
+		int idx = this.getKeyIndex(0, this.uCurDegree - 1, key);
+		if(idx != -1)
+		{
+			return (V) this.lstPointers[idx];
+		}
+		return null;
+	}
+
+	/**
+	 * Get index of given key in range
+	 * @param left
+	 * @param right
+	 * @param key
+	 * @return
+	 */
+	int getKeyIndex(int left, int right, K key)
+    {
+        if (right >= left) 
+		{
+            int mid = left + (right - left) / 2;
+			int uComp = this.lstKeys[mid].compareTo(key);
+            if (uComp == 0)
+			{
+                return mid;
+			}
+            else if (uComp > 0)
+			{
+                return this.getKeyIndex(left, mid - 1, key);
+			}
+			else
+			{
+            	return this.getKeyIndex(mid + 1, right, key);
+			}
+        }
+        return -1;
+    }
 	
 	/**
 	 * Get successor node of current node

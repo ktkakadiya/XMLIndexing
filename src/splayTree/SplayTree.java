@@ -13,11 +13,11 @@ public class SplayTree<K extends Comparable<K>, V>
     }
 
     /**
-     * Insert key value pair in element
+     * Insert key value pair in
      * @param key
      * @param value
      */
-    public void insertElement(K key, V value)
+    public void insert(K key, V value)
     {
         SplayTreeNode<K,V> oNode = new SplayTreeNode<K,V>(key, value);
         this.insertNode(oNode);
@@ -61,12 +61,11 @@ public class SplayTree<K extends Comparable<K>, V>
     }
 
     /**
-     * Insert key value pair in element
+     * Search key in tree
      * @param key
-     * @param value
      * @return
      */
-    public SplayTreeNode<K,V>  findElement(K key)
+    public SplayTreeNode<K,V> searchKey(K key)
     {
         return this.findKeyNode(this.root, key);
     }
@@ -103,7 +102,7 @@ public class SplayTree<K extends Comparable<K>, V>
      */
     public void deleteElement(K key)
     {
-        SplayTreeNode<K,V> oNode = this.findElement(key);
+        SplayTreeNode<K,V> oNode = this.searchKey(key);
         this.deleteNode(oNode);
     }
       
