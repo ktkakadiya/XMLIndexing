@@ -35,15 +35,3 @@
 </book>
 
 </bookstore>
-
-<?xml version="1.0" encoding="UTF-8"?>
-<presentations>
-    <presentation>
-        <title>Efficient Indexing Structures for XML Data</xml>
-        <presenter>Kartik Kakadiya</presenter>
-        <topics>
-            <topic>XML</topic>
-            <topic>Indexing</topic>
-        </topics>
-    </presentation>
-</presentations>
